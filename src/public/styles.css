@@ -1,0 +1,29 @@
+body{
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.card-title{
+    font-weight: bold !important;
+}
+.m{
+    margin-top: 20px !important;
+    font-size: 10px !important;    
+    padding-right: 190px !important;
+}
+.e{
+    margin-top: 20px !important;
+    font-size: 10px !important;    
+    padding-right: 90px !important;
+}
+.r{
+    margin-top: 20px !important;
+    font-size: 10px !important;    
+    padding-left: 10px !important;
+}
+.n{
+    margin-top: 20px !important;
+    font-size: 10px !important;    
+    padding-left: 110px !important;
+}

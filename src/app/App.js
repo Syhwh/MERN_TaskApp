@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import axios from 'axios';
- 
+import logo from '../public/logo.svg';
 class App extends Component{
     constructor(){
         super();
@@ -118,14 +117,22 @@ fetchTasks(){
             {/*Navigation */}
             <nav className="light-blue darken-4">
                 <div className="container">
-                    <a className="brand-logo" href="/">M-E-R-N Tasks</a>
+                    <a className="brand-logo center" href="/"> M - E - R - N Tasks <i className="large material-icons">view_list</i></a>
+                   <span className="brand-logo center m"> Mongo</span>
+                   <span className="brand-logo center e"> Express</span>
+                   <span className="brand-logo center r"> React</span>
+                   <span className="brand-logo center n"> Node</span>
+                
                 </div>
-        </nav>
+            </nav>
+            
+
          <div className="container">
             <div className="row">
                 <div className="col s5">
                     <div className="card">
                     <div className="card-content">
+                    <span class="card-title">Task Manager</span>
                         <form onSubmit={this.addTask}>
                             <div className="row">
                                 <div className="input-field col s12">
